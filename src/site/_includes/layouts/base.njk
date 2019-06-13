@@ -27,23 +27,20 @@
 </head>
 <body class="{{ bodyClass }}" >
 	<div class="container">
-		<nav class="main-nav">
-			<ul>
-				<li>
-					<a href="/">home<small>where the heart is</small></a>
-				</li>
-				<li>
-					<a href="/about">about<small>all about this</small></a>
-				</li>
-			</ul>
-		</nav>
 		<header>
-			<h1>{{ title }}</h1>
-			{%- if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}
+			{% include "header.njk" %}
 		</header>
-		{{ content | safe }}
-		{% include "footer.njk" %}
-		<script>{% include "js/scripts.js" %}</script>
+		<article>
+			<header>
+				<h1>{{ title }}</h1>
+				{%- if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}
+			</header>
+			{{ content | safe }}
+		</article>
+		<footer>
+			{% include "footer.njk" %}
+			<script>{% include "js/scripts.js" %}</script>
+		</footer>
 	</div>
 </body>
 </html>

@@ -1,0 +1,39 @@
+nav.main-nav {
+	padding:1rem 0;
+
+	li {
+		text-transform: uppercase;
+		font-weight:700;
+		letter-spacing:1px;
+	}
+
+	img {
+		max-width:240px;
+	}
+}
+
+@media screen and (min-width:760px) {
+	nav.main-nav {
+		ul {
+			li {
+				display:inline-block;
+				padding-right:1rem;
+				width:12%;
+
+				&:not(:first-of-type) {
+					max-width:105px;
+				}
+
+				&:first-of-type {
+					width:35%;
+					margin-bottom:-2px;
+				}
+
+				a {
+					text-decoration: none;
+					color:#000;
+				}
+			}
+		}
+	}
+}
