@@ -1,27 +1,70 @@
 ---
-title: Get Yours
+title: Welcome
 layout: layouts/base.njk
-subtitle: Clone and deploy your own EleventyOne starter template.
 ---
 
-## Hosting
+Welcome to Columbia Business School’s Web Project Blog, your source for updates on the school’s ongoing website overhaul. Check back here for regular updates on what we’re working on, what we’re thinking about, what’s ahead and what it all means for our community.
 
-This site is deployed by, and hosted by [Netlify](https://www.netlify.com).
+## Steering Committee
 
-Latest deploy status: [![Netlify Status](https://api.netlify.com/api/v1/badges/056b4a67-70e6-4af4-9be5-dee151b8e906/deploy-status)](https://app.netlify.com/sites/eleventyone/deploys)
+### Binu Nair
 
+Chief of Staff, Dean’s Office
 
-## One-click deploy
+### Janet Horan
 
-To get your own instance of this [Eleventy](https://11ty.io) starter project cloned and deploying to [Netlify](https://www.netlify.com) very quickly, just click the button below and follow the instructions.
+Vice Dean of Administration and Chief Operating Officer, Dean’s Office
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/eleventyone)
+### Vacant
 
+Vice Dean, Dean’s Office and Student Facing Services, Dean’s Office
 
-## 👆 Wait, what happens when I click that button?
+### Richard D. Hall
 
-Good question. Here's what it will do...
+Assistant Vice President of Business School Information Technology, Information Technology Group
 
-1. Netlify will clone the [git repository]({{pkg.repository.url}}) of this project into your GitHub account. You will be asked for the required permissions to add the repo for you.
-2. They'll create a new site for you in Netlify, and configure it to use your shiny new repo. Right away you'll be able to deploy changes simply by pushing changes to your repo.
-3. That's it really.
+### Elizabeth Brown
+
+Associate Dean, External Relations and Development
+
+### Shivaram Rajgopal
+
+Vice Dean for Research, Dean's Office; Roy Bernard Kester and T.W. Byrnes Professor of Accounting and Auditing, Accounting Division
+
+### Pierre Yared
+
+Professor of Business, Economics Divison
+
+### Ciamac C. Moallemi
+
+Associate Professor, Decision, Risk, and Operations Division
+
+### Meredith Halpern
+
+Executive Director, Strategic Communications
+
+## Project Team
+
+### Peter Wiegand
+
+Senior Associate Director, Digital Strategy, Columbia Business School
+
+### Tina Casolino
+
+Project Director, Portfolio Management, Columbia University Information Technology
+
+### Ian Mieville
+
+Senior Director, Web, Mobile and EDM Services, Columbia University Information Technology
+
+### Karl Ragnauth
+
+Manager, Web and Mobile Client Services, Columbia University Information Technology
+
+### Calvin Zhu
+
+Senior Application Systems Developer, Columbia University Information Technology
+
+### Nika Pokrovskaia
+
+Application System Developer, Columbia 

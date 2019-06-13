@@ -6,8 +6,8 @@
   },
   {
     "url": "/about/",
-    "title": "Get Yours",
-    "index": "HostingThis site deployed by hosted by NetlifyLatest deploy status: Oneclick deployTo get your own instance this Eleventy starter project cloned deploying Netlify very quickly just click button below follow instructions👆 Wait what happens when that buttonGood question Here&#39;s will Netlify clone git repository into GitHub account asked required permissions add repo They&#39;ll create new Netlify configure use shiny repo Right away &#39;ll able changes simply pushing repoThat&#39;s really"
+    "title": "Welcome",
+    "index": "Welcome Columbia Business School’s Web Project Blog your source updates school’s ongoing website overhaul Check back here regular what ’re working thinking about what’s ahead means our communitySteering CommitteeBinu NairChief Staff Dean’s OfficeJanet HoranVice Dean Administration Chief Operating Officer OfficeVacantVice Dean Office Student Facing Services OfficeRichard D HallAssistant Vice President School Information Technology Technology GroupElizabeth BrownAssociate External Relations DevelopmentShivaram RajgopalVice Research Dean&#39;s Office; Roy Bernard Kester TW Byrnes Professor Accounting Auditing DivisionPierre YaredProfessor Business Economics DivisonCiamac C MoallemiAssociate Professor Decision Risk Operations DivisionMeredith HalpernExecutive Director Strategic CommunicationsProject TeamPeter WiegandSenior Associate Digital Strategy SchoolTina CasolinoProject Portfolio Management University TechnologyIan MievilleSenior Web Mobile EDM TechnologyKarl RagnauthManager Client TechnologyCalvin ZhuSenior Application Systems Developer TechnologyNika PokrovskaiaApplication System"
   },
   {
     "url": "/",
@@ -23,6 +23,11 @@
     "url": "/policies/",
     "title": "Web Policies",
     "index": "Drupal 7 Site Feature Development Freeze July 1 2019"
+  },
+  {
+    "url": "/contact/",
+    "title": "Contact",
+    "index": "Use form below get touch with web project team request support new features consideration part our website overhaulRequest feature SupportFeature RequestYour Name: Your UNI: Page Website URL: Message: Include screenshots relevant Send"
   },
   {
     "url": "/policies/development-freeze/",
