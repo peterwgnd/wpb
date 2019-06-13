@@ -1,9 +1,9 @@
 ---
-title: EleventyOne
-subtitle: A project scaffold for getting building with Eleventy quickly.
+title: Welcome
 layout: layouts/base.njk
 ---
 
+Welcome to Columbia Business School’s Web Project Blog, your source for updates on the school’s ongoing website overhaul. Check back here for regular updates on what we’re working on, what we’re thinking about, what’s ahead and what it all means for our community.
 
 ## Latest Updates
 
@@ -15,28 +15,3 @@ layout: layouts/base.njk
   </li>
 {%- endfor -%}
 </ul>
-
-## Links from an external data source
-
-These links were sourced from [hawksworx.com](https://www.hawksworx.com/feed.json) at build time.
-
-<ul class="listing">
-{%- for item in hawksworx.entries.slice(0,5) -%}
-  <li>
-    <a href="{{ item.link }}">{{ item.title }}</a>
-  </li>
-{%- endfor -%}
-</ul>
-
-
-The data can be stashed locally by running:
-
-```
-yarn run seed
-```
-
-It will then be available locally for building with:
-
-```
-yarn start
-```

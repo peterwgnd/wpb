@@ -19,6 +19,9 @@ nav.main-nav {
 
 @media screen and (min-width:760px) {
 	nav.main-nav {
+		border-bottom:1px solid #e8e8e8;
+		margin-bottom:2rem;
+		
 		ul {
 			li {
 				display:inline-block;

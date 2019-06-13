@@ -12,13 +12,13 @@ If you’ve made your way here, you’ve already heard: Columbia Business School
 
 The Business School has partnered with design firm [Area17](https://area17.com/), whose clients include Apple, Google, The New York Times, and the New School, to help us rethink our digital presence and redesign our site to provide a modern and intuitive experience that meets the needs and expectations of our users.
 
-The Executive Steering Committee for this project, comprised of representatives from the School’s Executive Committee, the Dean’s Office, faculty, and each of the School’s business units, voted in favor of Area17 after careful review of several competing proposals.
+The [Executive Steering Committee](/team/#steering-committee) for this project, comprised of representatives from the School’s Executive Committee, the Dean’s Office, faculty, and each of the School’s business units, voted in favor of Area17 after careful review of several competing proposals.
 
 Our new sites will be built by the [Web Services Team in CUIT](https://cuit.columbia.edu/web-mobile-app-services), as part of the ongoing integration of the School’s and the University’s IT teams. This project will touch every one of our 75 Drupal sites. For a full list of sites, see the note at the end of this post.
 
 At this point, you may be feeling some degree of excitement and, especially if you’ve been through a website overhaul before, some degree of dread. That’s okay! This is a big project – one we’ve already been working on for over a year, and will be working on for months to come.
 
-If you’re feeling nervous, read on for more details about the project. If you’re more on the excited side, skip down to see how you can help. In either case, be sure to check back here for updates throughout the course of the project, and send us your questions, comments, concerns, hopes and dreams to [web@gsb.columbia.edu](mailto:web@gsb.columbia.edu).
+If you’re feeling nervous, read on for more details about the project. If you’re more on the excited side, skip down to see how you can help. In either case, be sure to check back here for updates throughout the course of the project, and send us your questions, comments, concerns, hopes and dreams to [web@gsb.columbia.edu](mailto:web@gsb.columbia.edu) or fill out the form on our [contact page](/contact).
 
 <details>
 <summary>

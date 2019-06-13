@@ -7,10 +7,11 @@ Use the form below to get in touch with the web project team to request support 
 
 <form name="contact" method="POST" data-netlify="true">
   <p>
-    <label for="request-type">Request support or a new feature</label>
+    <label for="request-type">What can we help you with?</label>
     <select name="request-type" id="request-type">
       <option value="support" selected>Support</option>
       <option value="feature request">Feature Request</option>
+      <option value="information">General Information</option>
     </select>
   </p>
   <p>
@@ -31,7 +32,7 @@ Use the form below to get in touch with the web project team to request support 
   </p>
   <p>
     <label for="screenshots">Include screenshots, if relevant</label>
-    <input type="file" name="screenshots" id="screenshots" accept=".jpg,.jpeg,.png,.gif">
+    <input type="file" name="screenshots" id="screenshots" accept=".jpg,.jpeg,.png,.gif" multiple>
   </p>
   <p>
     <button type="submit">Send</button>
