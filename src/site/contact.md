@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Contact Us
 layout: layouts/base.njk
 ---
 
@@ -7,25 +7,31 @@ Use the form below to get in touch with the web project team to request support 
 
 <form name="contact" method="POST" data-netlify="true">
   <p>
-    <label>Request support or a new feature <select name="request-type[]">
+    <label for="request-type">Request support or a new feature</label>
+    <select name="request-type" id="request-type">
       <option value="support" selected>Support</option>
       <option value="feature request">Feature Request</option>
-    </select></label>
+    </select>
   </p>
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name"/>
   </p>
   <p>
-    <label>Your UNI: <input type="text" name="uni" /></label>
-  </p>
-    <p>
-    <label>Page or Website URL: <input type="url" name="URL" /></label>
+    <label for="uni">UNI</label>
+    <input type="text" name="uni" id="uni" />
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <label for="url">Page or Website URL</label>
+      <input type="text" name="URL" id="url" />
   </p>
   <p>
-    <label>Include screenshots, if relevant <input type="file" name="screentshots" accept=".jpg,.jpeg,.png,.gif"></textarea></label>
+    <label for="message">Message</label>
+    <textarea name="message" id="message"></textarea>
+  </p>
+  <p>
+    <label for="screenshots">Include screenshots, if relevant</label>
+    <input type="file" name="screenshots" id="screenshots" accept=".jpg,.jpeg,.png,.gif">
   </p>
   <p>
     <button type="submit">Send</button>

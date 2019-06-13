@@ -1,3 +1,7 @@
+* {
+	box-sizing:border-box;
+}
+
 .container {
 	max-width:960px;
 	margin:0 auto;
@@ -52,4 +56,54 @@ footer {
 	p {
 		font-size:$type-size-00;
 	}
+}
+
+/* form styling */
+
+form {
+	max-width:550px;
+
+	label {
+		display:block;
+		font-weight:700;
+		font-size:$type-size-0;
+	}
+
+	input, textarea {
+		width:100%;
+	}
+
+	select {
+		font-family:$sans;
+	}
+
+	textarea {
+		min-height:7rem;
+		font-family:$sans;
+		font-size:$type-size-0;
+	}
+}
+
+button {
+    background: $primary-color;
+    border: none;
+    font-family: polaris,helvetica,sans-serif;
+    color: #fff;
+    padding: .5rem 2rem;
+    font-weight: bold;
+    border-radius: 4px;
+
+    &:hover {
+    	background-color: $secondary-color;
+    }
+
+    &[type="submit"] {
+    	float:right;
+
+    	&:before {
+    		content:"";
+    		display:table;
+    		clear:both;
+    	}
+    }
 }

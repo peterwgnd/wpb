@@ -5,6 +5,11 @@ nav.main-nav {
 		text-transform: uppercase;
 		font-weight:700;
 		letter-spacing:1px;
+		font-size:$type-size-0;
+
+		&:last-of-type a {
+			color:$primary-color;
+		}
 	}
 
 	img {
