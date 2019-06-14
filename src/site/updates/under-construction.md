@@ -40,7 +40,7 @@ Our current site is complex and cumbersome, both confusing to navigate and diffi
 
 If you have a website horror story, share it with us at [web@gsb.columbia.edu](mailto:web@gsb.columbia.edu). The more we know about where our users are encountering problems, the better chance we’ll have to get them fixed.
 
-Our content also isn’t well structured, making it difficult for both search engines to understand – and, therefore, surface in search results – while also creating challenges for users who require assistive technologies, like screen readers. We’ll be working throughout this process to bring more structure to our content, making it easier for users to update their sites, and ensuring that all the hard work everyone at Columbia Business School does is accessible to all.
+Our content also isn’t well structured, making it difficult for search engines to understand – and, therefore, surface in search results – while also creating challenges for users who require assistive technologies, like screen readers. We’ll be working throughout this process to bring more structure to our content, making it easier for users to update their sites, and ensuring that all the hard work everyone at Columbia Business School does is accessible to all.
 </details>
 
 <details>
@@ -216,9 +216,8 @@ In the meantime, you can help us out by reviewing your existing site, deleting o
 </details>
 <details>
 <summary>
-<h2>When will you be done?</h2>
-
-😰
+<h2>When will we be done?</h2>
+<p class="emoji">😰</p>
 </summary>
 
 This is a major undertaking that will be the primary focus of this team for at least three years.

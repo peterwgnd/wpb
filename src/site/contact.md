@@ -1,6 +1,7 @@
 ---
 title: Contact Us
 layout: layouts/page.md
+description: Get in touch with Columbia Business School’s Web Project Team.
 ---
 
 Use the form below to get in touch with the web project team to request support or new features for consideration as part of our website overhaul.
@@ -31,8 +32,8 @@ Use the form below to get in touch with the web project team to request support 
     <textarea name="message" id="message"></textarea>
   </p>
   <p>
-    <label for="screenshots">Include screenshots, if relevant</label>
-    <input type="file" name="screenshots" id="screenshots" accept=".jpg,.jpeg,.png,.gif" multiple>
+    <label for="screenshots">Include a screenshot, if relevant</label>
+    <input type="file" name="screenshots" id="screenshots" accept=".jpg,.jpeg,.png,.gif">
   </p>
   <p>
     <button type="submit">Send</button>

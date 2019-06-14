@@ -1,8 +1,12 @@
 ---
 title: Welcome
 layout: layouts/home.md
-image: img-perelman-center.jpg
-image-alt: Perelman Center
+img: img-perelman-center.jpg
+imgAlt: Perelman Center
+img-type: image/jpeg
+img-width: 1900
+img-height: 1060
+description: Columbia Business School’s Web Project Blog, your source for updates on the school’s ongoing website overhaul.
 ---
 
 Thank you for visiting Columbia Business School’s Web Project Blog, your source for updates on the school’s ongoing website overhaul. Check back here for regular updates on what we’re working on, what we’re thinking about, what’s ahead and what it all means for our community.

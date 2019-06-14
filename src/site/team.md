@@ -2,6 +2,7 @@
 title: Team
 layout: layouts/page.md
 bodyClass: team
+description: Learn about the team behind Columbia Business School’s Web Project.
 ---
 
 Columbia Business School’s Web Overhaul Project is lead by an executive steering committee, comprised of representatives from the School’s Executive Committee, the Dean’s Office, faculty, and each of the School’s business units. The project is being implemented by a joint team consisting of members of the school’s communications staff and members of CUIT. 
@@ -21,23 +22,23 @@ Columbia Business School’s Web Overhaul Project is lead by an executive steeri
 </li>
 
 <li>
-<h3>Vacant</h3>
+<h3><i>Vacant</i></h3>
 <p>Vice Dean, Dean’s Office and Student Facing Services, Dean’s Office</p>
-</li>
-
-<li>
-<h3>Richard D. Hall</h3>
-<p>Assistant Vice President of Business School Information Technology, Information Technology Group</p>
-</li>
-
-<li>
-<h3>Elizabeth Brown</h3>
-<p>Associate Dean, External Relations and Development</p>
 </li>
 
 <li>
 <h3>Shivaram Rajgopal</h3>
 <p>Vice Dean for Research, Dean's Office; Roy Bernard Kester and T.W. Byrnes Professor of Accounting and Auditing, Accounting Division</p>
+</li>
+
+<li>
+<h3>Beth Brown</h3>
+<p>Associate Dean, External Relations and Development</p>
+</li>
+
+<li>
+<h3>Richard D. Hall</h3>
+<p>Assistant Vice President of Business School Information Technology, Information Technology Group</p>
 </li>
 
 <li>
@@ -86,7 +87,7 @@ Columbia Business School’s Web Overhaul Project is lead by an executive steeri
 
 <li>
 <h3>Nika Pokrovskaia</h3>
-<p>Application System Developer, Columbia University Information Technology</p>
+<p>Web Developer/Programmer, Columbia University Information Technology</p>
 </li>
 </li>
 </ul>

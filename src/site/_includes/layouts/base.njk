@@ -33,16 +33,18 @@
 	<meta property='og:type' content='article' />
 	<meta property='og:locale' content='en_US' />
 	
-	<meta property='og:image' content='https://www8.gsb.columbia.edu/articles/projects/what-makes-a-hit/img-iaw-atypicality-meta.png' />
-	<meta property='og:image:type' content='image/gif' />
-	<meta property='og:image:width' content='400' />
-	<meta property='og:image:height' content='400' />
-	
+	{%- if img %}
+	<meta property='og:image' content='https://webproject.gsb.columbia.edu/images/{{ img }}' />
+	<meta property='og:image:type' content='{{ img-type }}' />
+	<meta property='og:image:width' content='{{ img-width }}' />
+	<meta property='og:image:height' content='{{ img-height }}' />
+	<meta name='twitter:image' content='https://webproject.gsb.columbia.edu/images/{{ img }}' />
+	{% endif %}
+
 	<meta name='twitter:card' content='summary' />
 	<meta name='twitter:site' content='@columbia_biz' />
-	<meta name='twitter:title' content='What Makes a Hit' />
-	<meta name='twitter:description' content='When it comes to climbing the charts, research suggests that it pays to be different. From Brenda Lee to Beyoncé, here’s how the top songs stood out from the crowd.' />
-	<meta name='twitter:image' content='https://www8.gsb.columbia.edu/articles/projects/what-makes-a-hit/img-iaw-atypicality-meta.png' />
+	<meta name='twitter:title' content='{{ title }}' />
+	<meta name='twitter:description' content='{{ description }}' />
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96301-33"></script>
@@ -53,12 +55,11 @@
 
 	  gtag('config', 'UA-96301-33');
 	</script>
-
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body class="{{ bodyClass }}" >
 	<div class="container">
-		<header>
+		<header class="site-header">
 			{% include "header.njk" %}
 		</header>
 		<div class="page-wrap">
@@ -67,6 +68,13 @@
 		<footer>
 			{% include "footer.njk" %}
 			<script>{% include "js/scripts.js" %}</script>
+			<script>$(document).ready(function(){
+					$('#menu-link').on('click', function(){
+						$('body').toggleClass('nav-active');
+						console.log('clicked');
+					});
+				});
+			</script>
 		</footer>
 	</div>
 </body>

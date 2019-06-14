@@ -4,13 +4,12 @@ pageClass: page
 templateEngineOverride: njk, md
 ---
 
-
+<main>
 <article>
 <header>
 <h1>{{ title }}</h1>
 {%- if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}
 </header>
-<main>
   {{ content | safe }}
-</main>
 </article>
+</main>

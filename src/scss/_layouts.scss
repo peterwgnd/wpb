@@ -117,17 +117,19 @@ button {
 /* team page */
 
 body.team {
-	ul {
-		li {
-			margin-bottom:1rem;
+	.page-wrap { 
+		ul {
+			li {
+				margin-bottom:1rem;
 
-			h2 {
-				margin:2rem 0 1rem; 
-			}
+				h2 {
+					margin:2rem 0 1rem; 
+				}
 
-			h3 {
-				font-size: $type-size-1;
-				margin-bottom:0;
+				h3 {
+					font-size: $type-size-1;
+					margin-bottom:0;
+				}
 			}
 		}
 	}
