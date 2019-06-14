@@ -1,5 +1,5 @@
 {
-  "layout" : "layouts/post.md",
+  "layout" : "layouts/policy.md",
   "tags" : "policy",
   "templateEngineOverride": "njk,md"
 }

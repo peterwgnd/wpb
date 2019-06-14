@@ -1,6 +1,6 @@
 ---
 title: Contact Us
-layout: layouts/base.njk
+layout: layouts/page.md
 ---
 
 Use the form below to get in touch with the web project team to request support or new features for consideration as part of our website overhaul.
@@ -11,7 +11,7 @@ Use the form below to get in touch with the web project team to request support 
     <select name="request-type" id="request-type">
       <option value="support" selected>Support</option>
       <option value="feature request">Feature Request</option>
-      <option value="information">General Information</option>
+      <option value="feedback">General Feedback</option>
     </select>
   </p>
   <p>

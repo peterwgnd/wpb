@@ -108,24 +108,25 @@ html {
 }
 
 h1 {
-  font-size:$type-size-5;
+  font-size:$type-size-6;
   line-height:$baseline*2;
 }
 
 h2 {
-  font-size:$type-size-4;
-}
-
-h3 {
   font-size:$type-size-3;
 }
 
-h4 {
+h3 {
   font-size:$type-size-2;
 }
 
-h5 {
+h4 {
   font-size:$type-size-1;
+}
+
+p {
+  margin-bottom:1rem;
+  max-width:550px;
 }
 
 p:only-child, p:last-child {

@@ -1,6 +1,6 @@
 ---
 title: Team
-layout: layouts/base.njk
+layout: layouts/page.md
 bodyClass: team
 ---
 

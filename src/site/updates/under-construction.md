@@ -1,8 +1,11 @@
 ---
 
-title: Congratulations, it’s a website!
+title: Under Construction
 date: 2019-07-01
 author: Peter Wiegand
+img: https://media.giphy.com/media/de4QmZqpcqQMOPL2Mt/giphy.gif
+imgAlt: a construction scene
+description: Columbia Business School is getting a new website. Here's a bit of the what and the why, and what it means for you.
 
 ---
 
